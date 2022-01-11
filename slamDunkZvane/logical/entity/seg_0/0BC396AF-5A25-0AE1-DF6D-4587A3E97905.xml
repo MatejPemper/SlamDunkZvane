@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BC396AF-5A25-0AE1-DF6D-4587A3E97905" name="ADRESA KUPCA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:24:19 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>AKU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_adresa_kupca" id="308981A1-4DC0-035A-DEBB-A3013AD7209B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:24:34 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="14755B83-22E1-FA74-7800-6B951B77F1B0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:25:12 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="48F79EAE-11F6-8CB2-25A5-F655F1CE6B47">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:25:37 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="AA74E322-6A97-C930-4C2A-6062C81CF12C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:25:55 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postaniski_broj" id="0B5BA70A-E35F-D761-8543-FFE628FAC8A6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:26:28 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kupca" id="2154953E-7C40-84FE-F99B-45F0524568BE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:52:02 UTC</createdTime>
+<generatorID>CE143C47-84F0-2CD6-5FDE-480ECC8A2A37</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<referedAttribute>8B4A405F-0F9A-888C-133F-5942857FC295</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAC26349-392F-2881-82A4-2BB400067888" name="ADRESA KUPCA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:25:09 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>308981A1-4DC0-035A-DEBB-A3013AD7209B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
