@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="247D6ABC-A8AA-E3DA-1D75-DB076F9B5FCC" name="SKLADISTE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>B083CF82-EA3B-8B42-077F-77A5EF9A23EB</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<abbreviation>SKL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skladista" id="D97FEB50-1810-FFF0-2B14-CACAEB97BABD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>A2BD6B44-10E9-3BF7-712F-2E8A1F75B311</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="AAEFD101-AEC5-EA5A-28DA-3DEC29059F74">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>701DDF84-79B5-44DE-C83D-FCF830079B86</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nabavna_cijena" id="AA1E33C6-1BE8-8741-880D-68FE6CA03393">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>C1BA54A3-C7F2-33BE-76C8-B3DE3190BB45</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9DB351D-2CF0-6160-F01A-88B74DF01C3E" name="SKLADISTE_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>90A3FA83-E0E7-638E-AC43-A1D9D82F8F19</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97FEB50-1810-FFF0-2B14-CACAEB97BABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RL_prod.pred--njegova.adresa" directorySegmentName="seg_0" id="00E31070-64CA-58B3-C3C6-54C99419BEB3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:40:46 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<sourcePk>32D40840-69F0-CDD9-839A-7357473CF6EF</sourcePk>
+<targetPk>2488CE4E-2856-A0E4-6C14-68BFB8E725EA</targetPk>
+<dominantRole>38717BB6-1813-6D2D-81DA-52D04CEC996E</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38717BB6-1813-6D2D-81DA-52D04CEC996E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A3AA147-C8CC-5FD0-5428-6765E2BAB656</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

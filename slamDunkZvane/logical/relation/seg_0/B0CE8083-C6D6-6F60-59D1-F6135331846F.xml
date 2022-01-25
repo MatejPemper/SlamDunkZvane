@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RL_prod.pred-rekurzivna" directorySegmentName="seg_0" id="B0CE8083-C6D6-6F60-59D1-F6135331846F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:42:27 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="B0AC7631-0886-0B0B-DAF3-FA0773E3F4AD" value="true"/>
+</engineerTo>
+<targetPk>32D40840-69F0-CDD9-839A-7357473CF6EF</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38717BB6-1813-6D2D-81DA-52D04CEC996E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38717BB6-1813-6D2D-81DA-52D04CEC996E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBB4CB31-D0D0-0D3B-3673-056C1735F08B" name="ADRESA_PROD._PRED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>4A3AA147-C8CC-5FD0-5428-6765E2BAB656</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_adresa_predstavnika" id="B75AE91F-947D-467E-8871-A746CF7BECB2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>26CD5FF7-8360-5209-1550-D56FD0A926F1</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="4130E66F-B68B-524C-0DB3-C37B0275230F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>4B9E3671-8F28-ED1D-27A6-691F4FD5A768</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kucni_broj" id="F1D8CC27-3900-6F26-D9F8-7AFA414CAF6E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>EE7A739C-E8CF-6F3D-7385-E0706B8F52BD</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postanski_broj" id="BF353BBA-054D-A5D7-F818-B687F7A1EFED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>EA967088-B4DE-0661-A7C3-F1A6AD746F3C</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad" id="225A2345-21E6-8059-3B52-56F321D017FB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>978626EB-C2DD-CBA8-5812-E5E22B65ED1B</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD.PRED_email" id="9DB69F8B-DF29-55A3-0944-5BBEC16EBC1B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>79B6AF3E-5790-DEE4-1DA1-3E8BFCD22954</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B317B9-B43B-CBE8-7150-FEB7C5E79ECD" referredColumn="0E3F66E1-B9D8-470D-48C6-1C4CDFB43B77"/>
+</associations>
+</Column>
+<Column name="email11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" id="514F8A23-0B28-12D9-8B28-2720B1FCFCED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>C67AD6FE-7B11-0FB6-78F7-2B670DDE0881</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="768076EE-E07F-351E-0AB9-CDBCF48D0DCC" name="ADRESA_PROD._PRED_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>2488CE4E-2856-A0E4-6C14-68BFB8E725EA</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B75AE91F-947D-467E-8871-A746CF7BECB2"/>
+<colUsage columnID="9DB69F8B-DF29-55A3-0944-5BBEC16EBC1B"/>
+<colUsage columnID="514F8A23-0B28-12D9-8B28-2720B1FCFCED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F6A1906-EF1F-AB1A-1A40-26E0F4358817" name="ADRESA_PROD._PRED__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00E31070-64CA-58B3-C3C6-54C99419BEB3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9DB69F8B-DF29-55A3-0944-5BBEC16EBC1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37681168-4AF3-643F-269E-FF5843153C5C" name="ADRESA_PROD._PRED_PROD.PRED_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>00E31070-64CA-58B3-C3C6-54C99419BEB3</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB69F8B-DF29-55A3-0944-5BBEC16EBC1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

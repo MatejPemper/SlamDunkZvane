@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0752676-1628-C7D5-A463-060191AD9FF2" name="NARUCENI_ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>E9054888-937D-0754-5DE7-90150182A2FA</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<abbreviation>NAA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naruceno" id="C963100A-364C-66FA-68FB-5CF17AAFD3E9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>7C12F13D-3382-B63B-115C-62A36179239B</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dostavljeno" id="01D32914-2DD7-907D-E8A7-8C1F1EA951A6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>085018F0-2844-E0B1-FF76-A7463814B347</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NARUDZBA_id_narudzba" id="EB26BB48-48C2-610F-9582-9F1037F20571">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>CD63C2DA-40F8-96B4-FFE3-A86D71C1D7C0</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="767E59AE-665D-9EBA-32DC-2D47648A22C1" referredColumn="9537A8EC-5768-461C-43AA-4015E7388534"/>
+</associations>
+</Column>
+<Column name="NARUDZBA_KUPAC_KUP_id_kupca" id="99CF6C71-84BE-FE13-3292-12B987FA07C1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>3D321E6F-26FE-83E5-E90B-40CB0E7B4903</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="767E59AE-665D-9EBA-32DC-2D47648A22C1" referredColumn="4F7FE43F-48E8-76CF-3DF9-0A4E8F64FFD3"/>
+</associations>
+</Column>
+<Column name="ARTIKL_id_artikla" id="0736EFB9-5023-E80D-A8FF-DF5DA6BC5F7A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>ADA5BFF0-B622-16C8-7EB3-00656BDD2266</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6826DC97-FFC8-8849-CFEB-383366DFB5B6" referredColumn="63ACA155-C9A6-6F20-2895-20D0C4881E43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D13B85D-2F19-00FF-4FE7-2A52756FB3CE" name="NARUCENI_ARTIKL_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>A62171EC-890A-278E-4A47-15F8CB5AF4AA</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB26BB48-48C2-610F-9582-9F1037F20571"/>
+<colUsage columnID="99CF6C71-84BE-FE13-3292-12B987FA07C1"/>
+<colUsage columnID="0736EFB9-5023-E80D-A8FF-DF5DA6BC5F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07A67648-2FD1-8861-A976-98704A02421E" name="NARUCENI_ARTIKL_ARTIKL_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>8C497D21-6091-EB84-2E75-BAB2097A266F</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0736EFB9-5023-E80D-A8FF-DF5DA6BC5F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F26AB8A-9BA3-B47C-CA23-9BC45DF6EC65" name="NARUCENI_ARTIKL_NARUDZBA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>B34F5B71-0AE5-A5FA-B335-EA918BEC4A99</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB26BB48-48C2-610F-9582-9F1037F20571"/>
+<colUsage columnID="99CF6C71-84BE-FE13-3292-12B987FA07C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

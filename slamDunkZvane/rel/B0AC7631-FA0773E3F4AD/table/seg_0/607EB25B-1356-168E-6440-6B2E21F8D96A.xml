@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="607EB25B-1356-168E-6440-6B2E21F8D96A" name="PRESTAVNIK_TIMA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>7F442565-0D29-B097-4049-D4609CA6E590</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_id_kupca" id="6AD1AB61-60F2-FF21-2D65-22EACB014CFD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>8B4A405F-0F9A-888C-133F-5942857FC295</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5750D427-C72F-C0EA-24A3-34786909DC7E" referredColumn="C01D0F21-AFEF-5B22-4948-3744BD975D80"/>
+</associations>
+</Column>
+<Column name="tim" id="93CBB6E0-A99C-F703-052D-6DB527340BC5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>BACB3372-C3B3-E938-7A0C-EDF9452CD476</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3365AED-3523-CCDE-5333-7FBE37739D29" name="PRESTAVNIK_TIMA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>F7BE190E-90F9-B7EE-E2C5-AF61F4151755</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD1AB61-60F2-FF21-2D65-22EACB014CFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71481478-A3BD-6586-1C8D-74AB3682D629" name="PRESTAVNIK_TIMA_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:28 UTC</createdTime>
+<generatorID>E08E92AB-0552-9115-DAB1-C9F0096292CE</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD1AB61-60F2-FF21-2D65-22EACB014CFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
